@@ -8,7 +8,7 @@ let firebaseConfig = {
     appId: "1:185079673837:web:592921eff41c57491aede4"
 }
 
-if (window.location.href.includes("athletictiming") || window.location.port === "3001") {
+if (window.location.href.includes("athletictiming")) {
     firebaseConfig = {
         apiKey: "AIzaSyBd7TuG4N8N7MEyTVPxWropqrmoD5rY0C4",
         authDomain: "athletic-timing-prod.firebaseapp.com",
