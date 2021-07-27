@@ -53,9 +53,6 @@
 			<StaffMember name="Monica Barnhart">
 				<p>FinishLynx/Event Management Operations</p>
 			</StaffMember>
-			<StaffMember name="Liz McCullough">
-				<p>MeetPro/Finish Line Operations</p>
-			</StaffMember>
 			<StaffMember name="Emily Vala-Haynes">
 				<p>MeetPro/FinishLynx Operator</p>
 			</StaffMember>
