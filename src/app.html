@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Athletic Timing</title>
+	<meta name="description" content="Providing Professional Timing Services for Oregon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="msapplication-starturl" content="/">
+	<meta name="theme-color" content="#17355D">
+
+	<meta name="application-name" content="Athletic Timing">
+	<meta property="og:site_name" content="Athletic Timing">
+	<meta property="og:locale" content="en">
+	<meta property="og:title" content="Athletic Timing">
+	<meta property="og:description" content="Providing Professional Timing Services for Oregon">
+	<meta property="og:url" content="http://athletictiming.net">
+
+	<link rel="icon" href="/at-favicon.png" />
+	<script src="https://kit.fontawesome.com/ec0b7b0882.js" crossorigin="anonymous"></script>
+
+	%svelte.head%
+</head>
+
+<body>
+	<div id="svelte">%svelte.body%</div>
+
+	<script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+	<script defer src="/init-firebase.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5D949KT');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112610404-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-112610404-1');
+	</script>
+</body>
+
+</html>

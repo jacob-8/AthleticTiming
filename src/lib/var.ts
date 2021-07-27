@@ -1,0 +1,1 @@
+export const photoURL = import.meta.env.VITE_ANET_PHOTO_URL_PREFIX;

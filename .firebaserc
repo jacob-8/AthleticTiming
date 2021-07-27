@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "athletic-timing-prod",
+    "dev": "athletic-timing-dev"
+  }
+}
